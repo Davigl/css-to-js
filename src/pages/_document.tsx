@@ -39,23 +39,16 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link
-            rel="preload"
-            href="/fonts/Geomanist/Geomanist-Regular.ttf"
-            as="font"
-            crossOrigin=""
-          />
-          <link
-            rel="preload"
-            href="/fonts/Geomanist/Geomanist-Medium.ttf"
-            as="font"
-            crossOrigin=""
-          />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+            rel="stylesheet"
+          ></link>
           <link
             rel="shortcut icon"
             href="/images/generic/favicon.svg"

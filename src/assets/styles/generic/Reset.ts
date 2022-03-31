@@ -21,15 +21,6 @@ const ResetStyles = createGlobalStyle`
     overflow-x: hidden;
   }
 
-  body,
-  input,
-  textarea,
-  button {
-    font: 400 1rem Geomanist, sans-serif;
-
-    color: var(--neutral-black-1);
-  }
-
   body {
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +34,6 @@ const ResetStyles = createGlobalStyle`
   h4,
   h5,
   h6 {
-    font-family: 'Exo 2', sans-serif;
     font-weight: 700;
   }
 
@@ -90,8 +80,17 @@ const ResetStyles = createGlobalStyle`
     background: none;
   }
 
+  textarea {
+    resize: none;
+
+    border: 0;
+    resize: none;
+    outline: none;
+  }
+
   &::-webkit-scrollbar {
     width: 9px;
+    background-color: #333;
   }
 
   &::-webkit-scrollbar-track {
@@ -100,6 +99,8 @@ const ResetStyles = createGlobalStyle`
 
   &::-webkit-scrollbar-thumb {
     border-radius: 5px;
+
+    background-color: white;
   }
 `;
 
