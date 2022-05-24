@@ -10,6 +10,7 @@ const Main = (): JSX.Element => (
     <>
       <Head>
         <title>Jsify - CSS</title>
+        <link rel="icon" href="/images/logo.png" />
       </Head>
       <S.Wrapper>
         <CodeInput />

@@ -9,6 +9,7 @@ const GithubLink = (): JSX.Element => (
       href="http://github.com/davigl/css-to-js"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="Github Link"
     >
       <FaGithub />
     </a>

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   margin: 20px;
   display: flex;
@@ -35,5 +35,10 @@ export const Wrapper = styled.div`
       margin-right: 20px;
       color: #fff;
     }
+  }
+
+  @media ( min-width: 900px ) {
+    top: 0;
+    bottom: inherit;
   }
 `

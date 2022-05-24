@@ -6,7 +6,8 @@ export const Wrapper = styled.main`
 
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
-  overflow-y: auto;
+
+  overflow-y: hidden;
 
   @media ( min-width: 900px ) {
     grid-template-columns: repeat(2, 1fr);

@@ -86,7 +86,7 @@ export function MainContextProvider({
 
   const copyToClipboard = useCallback(() => {
     navigator.clipboard.writeText(`{\n${codeOutput}\n}`);
-    setCopyButtonText("Copied to clipboard");
+    setCopyButtonText("Copied");
 
     setTimeout(() => {
       setCopyButtonText("Copy to clipboard");
